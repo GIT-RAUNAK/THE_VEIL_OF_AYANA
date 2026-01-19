@@ -139,7 +139,7 @@ body.bg-fade::after {
 }
 
 .hero-text h1 {
-  font-size: 28px;
+  font-size: 32px;
   letter-spacing: 6px;
   font-weight: 500;
   margin-bottom: 14px;
@@ -147,6 +147,14 @@ body.bg-fade::after {
     0 0 8px var(--gold-glow),
     0 0 18px rgba(230, 214, 184, 0.15);
 }
+
+#hero-title .small {
+  font-size: 0.62em;      /* correct optical ratio */
+  letter-spacing: 4px;   /* tighter for small caps */
+  vertical-align: baseline; 
+}
+
+
 
 .hero-text h3 {
   font-size: 15px;
