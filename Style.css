@@ -100,7 +100,7 @@ body.bg-fade::after {
 }
 
 .logo-icon {
-  width: 90px; 
+  width: 45px; 
   height: auto;
   object-fit: contain;
 }
@@ -609,7 +609,7 @@ body.bg-fade::after {
   }
 
   .logo-icon {
-    width: 46px;
+    width: 30px;
   }
 
   .logo h1 {
