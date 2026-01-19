@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE VEIL OF AYANA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="Style.css">
+
+  <link rel="preload" as="image" href="ep1.png">
+  <link rel="preload" as="image" href="ep2.png">
+  <link rel="preload" as="image" href="ep3.png">
+  <link rel="preload" as="image" href="ep1-bg.jpg">
+  <link rel="preload" as="image" href="ep2-bg.jpg">
+  <link rel="preload" as="image" href="ep3-bg.jpg">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="logo">
+      <h1>THE VOID CREATION</h1>
+    </div>
+
+    <nav class="nav" aria-label="Main Navigation">
+      <ul>
+        <li><a href="#">ABOUT CREATOR</a></li>
+        <li><a href="index.html">HOMEPAGE</a></li>
+      </ul>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        ≡
+      </button>
+
+      <div class="menu-dropdown">
+        <a href="#">ABOUT CREATOR</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+
+    <section class="hero-text">
+      <h1 id="hero-title">THE VEIL OF AYANA</h1>
+      <h3 id="hero-season">SEASON 1 · THE AWAKENING</h3>
+      <p class="meta" id="hero-meta">MYTHIC FANTASY · 6 EPISODES</p>
+
+      <p class="description" id="hero-desc">
+        As ancient monsters and cult empires rise,<br>
+        humanity is pulled into a cosmic shadow war<br>
+        while the true enemy remains imprisoned.
+      </p>
+
+      <div class="hero-buttons">
+        <a id="watchTrailer" class="btn primary" target="_blank">
+          WATCH TRAILER
+        </a>
+        <a id="knowMore" class="btn secondary">
+          KNOW MORE...
+        </a>
+      </div>
+    </section>
+
+    <section class="hero-cards">
+      <div class="cards-track">
+
+        <div
+          class="card active"
+          data-image="ep1.png"
+          data-bg="ep2-bg.jpg"
+          data-title="THE VEIL OF AYANA"
+          data-season="SEASON 1 · THE AWAKENING"
+          data-meta="MYTHIC FANTASY · 6 EPISODES"
+          data-desc="As ancient monsters and cult empires rise,<br>humanity is pulled into a cosmic shadow war<br>while the true enemy remains imprisoned."
+          data-trailer=""
+          data-more=""
+        ></div>
+
+        <div
+          class="card"
+          data-image="ep2.png"
+          data-bg="ep1-bg.jpg"
+          data-title="THE VEIL OF AYANA"
+          data-season="SEASON 2 · THE FRACTURE"
+          data-meta="MYTHIC FANTASY · 6 EPISODES"
+          data-desc="The war escalates into full-scale apocalyptic invasion,<br>as Vritrika’s legions colonize reality itself,<br>and a single death shatters the prison of time."
+          data-trailer=""
+          data-more=""
+        ></div>
+
+        <div
+          class="card"
+          data-image="ep3.png"
+          data-bg="ep3-bg.jpg"
+          data-title="THE VEIL OF AYANA"
+          data-season="SEASON 3 · THE ERASURE"
+          data-meta="MYTHIC FANTASY · 6 EPISODES"
+          data-desc="With Vritrika free, reality bends and timelines bleed.<br>Gods descend onto the battlefield,<br>and survival becomes the only remaining victory."
+          data-trailer=""
+          data-more=""
+        ></div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-split">
+
+      <div class="footer-left">
+        <a
+          href="https://youtube.com/@the_void_creation?si=gLqvr-VpwrFknmVx"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="youtube.png" alt="YouTube">
+          <span>YouTube</span>
+        </a>
+
+        <span class="footer-divider">|</span>
+
+        <a
+          href="https://www.instagram.com/the.void.creation/"
+          class="social"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="instagram.png" alt="Instagram">
+          <span>Instagram</span>
+        </a>
+      </div>
+
+      <p class="footer-credit">Designed by Raunak Raj</p>
+
+    </div>
+  </footer>
+
+  <script src="slider.js" defer></script>
+
+</body>
+</html>
