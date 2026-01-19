@@ -93,6 +93,19 @@ body.bg-fade::after {
   color: var(--gold);
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 90px; 
+  height: auto;
+  object-fit: contain;
+}
+
+
 .mobile-menu {
   display: none;
 }
@@ -386,6 +399,26 @@ body.bg-fade::after {
     letter-spacing: 8px;
   }
 
+  .logo-icon {
+    width: 120px;
+  }
+
+  .logo h1 {
+    font-size: 28px;
+    letter-spacing: 9px;
+  }
+
+  .hero-text h1 {
+    font-size: 42px;
+    letter-spacing: 9px;
+  }
+
+  #hero-title .small {
+    font-size: 0.58em;
+    letter-spacing: 5px;
+  }
+  
+
   .nav {
     gap: 56px;
   }
@@ -483,6 +516,25 @@ body.bg-fade::after {
 
 @media (min-width: 2400px) {
 
+  .logo-icon {
+    width: 140px;
+  }
+
+  .logo h1 {
+    font-size: 32px;
+    letter-spacing: 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 52px;
+    letter-spacing: 10px;
+  }
+
+  #hero-title .small {
+    font-size: 0.55em;
+    letter-spacing: 6px;
+  }
+
   body {
     font-size: 20px;
   }
@@ -550,6 +602,29 @@ body.bg-fade::after {
   .logo h1 {
     font-size: 12px;
     letter-spacing: 2px;
+  }
+
+  .logo {
+    gap: 8px;
+  }
+
+  .logo-icon {
+    width: 46px;
+  }
+
+  .logo h1 {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .hero-text h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  #hero-title .small {
+    font-size: 0.6em;
+    letter-spacing: 1.5px;
   }
 
   .hero {
